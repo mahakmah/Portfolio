@@ -1,0 +1,575 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* Home Page */
+/* Navbar */
+.navbar{
+    height:72px;
+    background-color: White;
+    color: #0E8388;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Name */
+.name{
+    margin-left: 80px;
+    width:50%;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+/* Nav-options */
+.nav-options{
+    margin-right: 89px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Nav-opt */
+.nav-opt{
+    text-decoration: none;
+    color: #0E8388;
+    font-weight: 600;
+}
+.nav-opt:hover{
+    color: black;
+}
+/* Download cv option */
+.download-cv{
+    background-color:#0E8388;
+    padding: 6px;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+.download-cv:hover{
+    background-color: black;
+}
+.cv{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+/* Introduction */
+.content{
+    height: 667px;
+    width:100%;
+    background-color: #CBE4DE;
+    display: flex;
+
+}
+.intro{
+    width:60%;
+    margin-top: 170px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:#0E8388;
+}
+#name{
+    margin-left:75px;
+    color:#2E4F4F;
+    font-size: xxx-large;
+    animation: myanima 5s linear 2s infinite normal;
+}
+/* Animation */
+@keyframes myanima {
+    from{opacity: 0;}
+    to{opacity: 0.7;}
+}
+.intro-content{
+    margin-left: 75px;
+    font-weight: 300;
+    font-size: 18px;
+    color:#2C3333;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Social Media */
+.social-media{
+    margin-left: 80px;
+    display: flex;
+}
+#github{
+    margin-left: 20px;
+}
+.fa-brands{
+    color: black;
+}
+/* Image */
+.picture{
+    width: 40%;
+    height:667px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo:hover{
+    transform: scale(1.03);
+    z-index: 1;
+}
+img{
+    border-radius: 50%;
+}
+
+/* About me Page  */
+
+.main{
+    text-align: center;
+    background-color: #CBE4DE;
+    height:670px;
+}
+/* About me Heading */
+.about-heading{
+    padding-top: 100px;
+    color: #2E4F4F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+/* About me Content */
+.about-content{
+    margin-top: 100px;
+    height:300px;
+    width:100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+/* About me and project content */
+.ab-content{
+    background-color: white;
+    width:500px;
+    height: 240px;
+    padding: 40px;
+    border-radius: 50px;
+    color:rgb(41, 41, 41);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+.ab-content:hover{
+    transform: scale(1.03);
+    z-index: 4;
+}
+/* Project age */
+.heading{
+    font-style: italic;
+    color: #0E8388;
+}
+/* Technical Skills */
+.tech-skills{
+    width:500px;
+    height: 240px;
+    width:500px;
+    padding: 40px;
+    border-radius: 50px;
+    color:rgb(41, 41, 41);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    align-items: center;
+    background-color: white;
+   
+}
+.tech-skills:hover{
+    transform: scale(1.03);
+    z-index: 4;
+}
+/* List of technical skills */
+ul{
+    list-style-type:none;
+}
+/* Projects Page*/
+/* Project Heading */
+.projects-heading{
+    padding-top: 35px;
+    color: #2E4F4F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+/* Projects-Content */
+.projects-content{
+    width:100%;
+    height:250px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Project Box */
+.box{
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 40px;
+    width:350px;
+    height: 150px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    color:#0E8388
+}
+.box:hover{
+    transform: scale(1.03);
+    z-index: 1;
+}
+/* Contact-Page */
+.contact-page{
+    background-color: #CBE4DE;
+    height:620px;
+    text-align: center;
+    padding-top: 50px;
+}
+/* Contact Content */
+.contact-content{
+    margin-top:100px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Ways of finding me */
+.Find-me{
+    height: 303px;
+    width: 500px;
+    background-color:#2E4F4F;
+    color: white;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    padding: 15px;
+}
+.contact-ways{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.gmail{
+    text-decoration: none;
+    color: white;
+}
+/* Contact form */
+.form{
+    height:335px;
+    width:500px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width:100%;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 0px;
+}
+/* Input and textaarea */
+form input,form textarea{
+    border:0;
+    margin:10px 0;
+    padding: 15px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+/* Form Button */
+form button{
+    padding: 15px;
+    background-color: #2E4F4F;
+    color: white;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    border:0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* Button hover */
+button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    z-index: 2;
+}
+/* For screen size 1200px and more(Large) */
+@media (min-width:1200px) and (max-width:1400px){
+    .picture{
+        width:35%;
+    }
+    img{
+        height:400px;
+    }
+    .ab-content,.tech-skills{
+        width:350px;
+        font-size: 14px;
+
+    }
+    li{
+        font-size: 19px;
+    }
+}
+
+/* For screen size 992px and 1199px(Laptops) */
+@media (min-width:992px) and (max-width:1199px){
+    .name{
+        width:35%;
+        margin-left: 70px;
+    }
+    #name{
+        font-size: xx-large;
+        margin-left: 56px;
+    }
+    .intro{
+        font-size: x-large;
+        margin-left: 30px;
+        padding-top:30px ;
+    }
+    .intro-content{
+        margin-left: 56px;
+        font-size: 16px;
+    }
+    .social-media{
+        margin-left: 56px;
+    }
+    .picture{
+        width:30%;
+        padding-left: 30px;
+    }
+    img{
+        height:300px;
+    }
+    .about-heading{
+        padding-top: 70px;
+    }
+    .about-content{
+        margin-top: 70px;
+    }
+    .ab-content,.tech-skills{
+        width:300px;
+        height:310px;
+    }
+    li{
+        font-size: 20px;
+    }
+    .box{
+        font-size: medium;
+        width:250px;
+        height:100px;
+    }
+    .Find-me{
+        width:400px;
+        margin-left: 50px;
+    }
+    form{
+        width:400px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+    input{
+        width:360px;
+    }
+    textarea{
+        width:360px;
+    }
+    button{
+        width:395px;
+    }
+}
+/* For screen size 768px and 991px(Tablets) */
+@media (min-width:768px) and (max-width:991px){
+    .name{
+        width:20%;
+        margin-left: 70px;
+    }
+    .nav-options{
+        width:55%;
+        margin-right: 30px;
+    }
+    #name{
+        font-size: xx-large;
+        margin-left: 50px;
+    }
+    .intro{
+        width:70%;
+        font-size: x-large;
+        margin-left: 15px;
+        padding-top: 40px;
+        white-space-collapse:discard ;
+    }
+    .intro-content{
+        margin-left: 50px;
+        font-size: 14px;
+    }
+    .social-media{
+        margin-left: 56px;
+    }
+    .picture{
+        width:30%;
+    }
+    img{
+        width:190px;
+        height:270px;
+    }
+    .about-heading{
+        padding-top: 70px;
+    }
+    .about-content{
+        margin-top: 70px;
+    }
+    .ab-content,.tech-skills{
+        width:250px;
+        height:310px;
+        font-size: 14px;
+    }
+    li{
+        font-size: 20px;
+    }
+    .box{
+        font-size: medium;
+        width:220px;
+        height:100px;
+    }
+    .Find-me{
+        width:380px;
+        margin-left: 40px;
+    }
+    form{
+        width:350px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+    input{
+        width:260px;
+    }
+    textarea{
+        width:260px;
+    }
+    button{
+        width:285px;
+    }
+}
+/* For screen size 600px and 767px(Tablets) */ 
+@media (min-width:600px) and (max-width:767px){
+    .name{
+        width:20%;
+        margin-left: 50px;
+    }
+    .nav-options{
+        width:80%;
+        margin-right: 0px;
+    }
+    .download-cv{
+        margin-left: 5px;
+    }
+    .content{
+        display: block;
+        width: 100%;
+        height: 667px;
+    }
+    .intro{
+        width:100%;
+         margin-top: 0px;
+         padding-top: 40px;
+         height:300px;
+         font-size: 20px;
+    }
+    #name{
+        margin-left: 50px;
+    }
+    .intro-content{
+        margin-left:50px ;
+        font-size: 15px;
+    }
+    .social-media{
+        margin-left: 50px;
+    }
+    .picture{
+        height:367px
+    }
+    img{
+        margin-left: 370px;
+        width:250px;
+        height:250px;
+        margin-bottom: 110px;
+    }
+    .about-heading{
+        padding-top: 30px;
+    }
+    .about-content{
+        display: block;
+        margin-top: 50px;
+    }
+    .ab-content,.tech-skills{
+        width:300px;
+        height: 180px;
+        padding: 17px;
+        font-size: 11px;
+        margin-left:140px ;
+    }
+    .tech-skills{
+        margin-top: 50px;
+    }
+    .projects-heading{
+        padding-top: 20px;
+    }
+    .projects-content{
+        display: block;
+        margin-top: 0px;
+        height:244px;
+    }
+    .box{
+        width:300px;
+        height: 45px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left:140px ;
+        font-size: 18px;
+        margin-top: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .contact-page{
+        padding-top: 20px;
+        height:650px;
+    }
+    .contact-content{
+        display: block;
+        margin-top: 40px;
+    }
+    .Find-me{
+        width:420px;
+        height:170px;
+        margin-left: 70px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    .form{
+        margin-left: 70px;
+        margin-top: 70px;
+        height:200px;
+    }
+    form{
+        height:300px;
+        padding-left: 5px;
+    }
+    input{
+        width:400px;
+    }
+    textarea{
+        width:400px;
+       height:100px;
+    }
+    button{
+        margin-top: 40px;
+        width:440px;
+    }
+    
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <div class="name">Mahak</div>
+            <div class="nav-options">
+                <a href="index.html" class="nav-opt">Home</a>
+                <a href="about.html" class="nav-opt">About</a>
+                <a href="projects.html" class="nav-opt">Projects</a>
+                <a href="contact.html" class="nav-opt">Contact</a>
+                <div class="download-cv">
+                    <a href="MAHAK MAHESHWARI.pdf" class="cv">Download cv</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Contact Page -->
+    <main>
+        <div class="contact-page">
+            <!-- Contact Heading -->
+            <div class="heading">
+                    <h1>Get in touch</h1>
+            </div>
+            <!-- Ways of Contact -->
+            <div class="contact-content">
+                <div class="Find-me">
+                    <div class="content-heading"><h1>Find me</h1></div>
+                    <div class="contact-ways">
+                     <p><i class="fa-regular fa-envelope"></i> Email: mahakmaheshwari2004@gmail.com</p>  
+                     <br>
+                     <br>
+                     <p><i class="fa-solid fa-phone"></i> Tel: 8923673059</p> 
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="form">
+                <form onsubmit="sendEmail();reset();return false;">
+                <input type="text" id="form-name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email Id" required>
+                <textarea id="message" rows="5" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+             </form>
+        </div>
+    </main>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
